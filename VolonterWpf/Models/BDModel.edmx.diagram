@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="889a0a3c89024ba29028e7799a371ecf" Name="Diagram1">
+        <EntityTypeShape EntityType="bd1Model.Patient" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.ReqiesrUser" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.Request" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.Role" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.Status" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.StatusUser" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd1Model.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="bd1Model.FK_Request_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="bd1Model.FK_ReqiesrUser_Request" ManuallyRouted="false" />
+        <AssociationConnector Association="bd1Model.FK_ReqiesrUser_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="bd1Model.FK_ReqiesrUser_User" ManuallyRouted="false" />
+        <AssociationConnector Association="bd1Model.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="bd1Model.FK_User_StatusUser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
